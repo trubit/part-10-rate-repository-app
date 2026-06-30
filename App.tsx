@@ -1,7 +1,13 @@
 import RepositoryList from "./src/components/RepositoryList";
+import AppBar from "./src/components/AppBar";
 
 const App = () => {
-  return <RepositoryList />;
+  return (
+    <>
+      <AppBar />
+      <RepositoryList />
+    </>
+  );
 };
 
 export default App;
